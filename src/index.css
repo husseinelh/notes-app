@@ -11,3 +11,130 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.search input {
+	border:none;
+	width: 100%;
+  background-color: rgb(233, 233, 233);
+
+}
+
+.search{
+  display:flex;
+  background-color: rgb(233, 233, 233);
+	border-radius: 10px;
+  margin: 10px 50px;
+  padding: 10px;
+  margin-bottom: 30px;
+
+}
+
+input:focus {
+	outline:none
+
+}
+textarea:focus {
+	outline:none
+
+}
+
+
+.addnote-container{
+  background-color: lightgreen;
+  padding: 5px;
+  margin: 0 40px;
+  border-radius: 12px;
+  position:relative;
+  height:200px;
+  width: 200px;
+
+}
+
+textarea{
+  background: transparent;
+  outline:none;
+  border:none;
+}
+
+.notes-container{
+  background-color: #ffff80;
+  height: 200px;
+  margin: 10px 40px;
+  border-radius: 12px;
+  position: relative;
+  width: 200px;
+}
+.delete-btn{
+  position:absolute;
+  right:5px;
+  bottom:10px;
+  background: transparent;
+  border:none;
+  font-size: 1.1em;
+}
+
+.container{
+ display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(
+		auto-fill,
+		minmax(250px, 1fr)
+	);
+}
+.add-btn{
+background: white;
+  border:none;
+  border-radius: 20px;
+  position:absolute;
+  right:5px;
+  bottom:10px;
+
+}
+
+.notes-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle-btn{
+  background: transparent;
+  border:none;
+  font-size: 3em;
+  margin-right: 50px ;
+}
+
+.dark{
+  background-color: black;
+  height: 100vh;
+}
+
+.title{
+  font-size: 50px;
+}
+
+.white-title{
+  color: white;
+  font-size: 40px;
+}
+
+
+.toggle-off{
+  background-color: white;
+  border-radius: 40px;
+}
+
+.title{
+  margin-left: 50px;
+}
+
+
+.App{
+  height: 100vh;
+}
+
