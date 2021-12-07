@@ -41,13 +41,20 @@ textarea:focus {
 
 
 .addnote-container{
-  background-color: lightgreen;
+  /* background-color: lightgreen;
   padding: 5px;
   margin: 0 40px;
   border-radius: 12px;
   position:relative;
   height:200px;
+  width: 200px; */
+  background-color: lightgreen;
+  height: 200px;
+  margin: 10px 40px;
+  border-radius: 12px;
+  position: relative;
   width: 200px;
+  padding: 1rem;
 
 }
 
@@ -64,6 +71,7 @@ textarea{
   border-radius: 12px;
   position: relative;
   width: 200px;
+  padding: 1rem;
 }
 .delete-btn{
   position:absolute;
